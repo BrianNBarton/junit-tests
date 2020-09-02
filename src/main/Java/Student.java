@@ -35,4 +35,7 @@ public class Student {
         }
         return sum / this.grades.size() ;
     }
+    public ArrayList<Integer> updateGrade(int grade) {
+        return this.grades;
+    }
 }
